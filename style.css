@@ -10,16 +10,19 @@ html {
     font-family: 'Kumbh Sans', sans-serif;
 }
 body {
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: -15% 25%, 105% -40%;
     background-color: hsl(185, 75%, 39%);
 }
-.top-img{
+/**.top-img{
     height: 1200px;
     transform: translate(-20%, -48%);
 }
 .bottom-img{
     height: 1200px;
     transform: translate(80%, -70%);
-}
+}**/
 .card {
     position: absolute;
     top: 50%;
