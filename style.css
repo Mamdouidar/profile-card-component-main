@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 18px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+.top-img{
+    height: 1200px;
+    transform: translate(-20%, -48%);
+}
+.bottom-img{
+    height: 1200px;
+    transform: translate(80%, -70%);
+}
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.card>img {
+    border-radius: 20px 20px 0px 0px;
+    width: 100%;
+}
+.circle {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.circle img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+.card-bottom{
+    background: white;
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+}
+.info{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.info>.bold{
+    margin-bottom: 10px;
+}
+.info span{
+    margin-left: 10px;
+}
+.bold {
+    font-weight: 700;
+}
+span {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+.line-break{
+    width: 100%;
+    border: 1px solid hsl(0, 0%, 59%);
+    margin: 10px 0px;
+}
+.stats{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 20px 0px;
+}
+.stat-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.stat-item p{
+    margin-bottom: 10px;
+}
