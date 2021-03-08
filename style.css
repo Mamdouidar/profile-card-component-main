@@ -15,14 +15,6 @@ body {
     background-position: -15% 25%, 105% -40%;
     background-color: hsl(185, 75%, 39%);
 }
-/**.top-img{
-    height: 1200px;
-    transform: translate(-20%, -48%);
-}
-.bottom-img{
-    height: 1200px;
-    transform: translate(80%, -70%);
-}**/
 .card {
     position: absolute;
     top: 50%;
